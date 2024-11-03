@@ -1,0 +1,16 @@
+name: audiocraft_env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9.13
+  - pip
+  # - pytorch-cuda=12.1
+  # - pytorch=2.1.0
+  # - torchvision=0.16.0
+  # - torchaudio=2.1.0
+  # - pip
+  # - pip:
+      # - git+https://github.com/facebookresearch/audiocraft.git
