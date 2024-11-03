@@ -5,6 +5,12 @@ A Rust library for local execution of Facebook's AudioCraft models, primarily de
 
 `audio-gen-exp` provides a bridge between Rust applications and Facebook's AudioCraft models, specifically focusing on MusicGen. It's designed to facilitate the development of audio plugins and software that leverage AI-generated audio.
 
+### Showcase
+
+Here is a showcase of the library in action within a simple VST3 audio plugin that generates audio based on text prompts and outputs the audio either to a file or directly to the VST3 host.
+While currently limited in features, this serves as an experimental proof-of-concept to demonstrate the library's capabilities and potential.
+![showcase](./docs/screenshot.png)
+
 ## Features
 
 - Local execution of various MusicGen models:
